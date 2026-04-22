@@ -38,7 +38,7 @@ export const Navbar = () => {
         <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="Anchor Digital Solutions" className="w-10 h-10 object-contain" />
           <span className="font-serif-display text-xl text-foreground">
-            Anchor <span className="text-muted-foreground">Digital</span>
+            Anchor <span className="text-muted-foreground">Digital Solutions</span>
           </span>
         </Link>
 
