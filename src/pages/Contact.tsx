@@ -18,7 +18,7 @@ const Contact = () => {
     toast.success("Message ready — opening WhatsApp so we can reply faster.");
     const form = new FormData(e.currentTarget);
     const text = `Hi Anchor, I'd like to talk.%0A%0AName: ${form.get("name")}%0APhone: ${form.get("phone")}%0ABusiness: ${form.get("business")}%0AService: ${form.get("service")}%0AMessage: ${form.get("message")}`;
-    window.open(`https://wa.me/254783032333?text=${text}`, "_blank");
+    window.open(`https://wa.me/254785554098?text=${text}`, "_blank");
   };
 
   return (
