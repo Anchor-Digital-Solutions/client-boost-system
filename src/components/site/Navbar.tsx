@@ -36,9 +36,7 @@ export const Navbar = () => {
     >
       <nav className="container mx-auto flex h-16 md:h-20 items-center justify-between gap-4">
         <Link to="/" className="flex items-center gap-2">
-          <span className="grid place-items-center w-9 h-9 rounded-full bg-primary">
-            <img src={logo} alt="Anchor" className="w-5 h-5 invert brightness-0" style={{ filter: "invert(1) brightness(2)" }} />
-          </span>
+          <img src={logo} alt="Anchor Digital Solutions" className="w-10 h-10 object-contain" />
           <span className="font-serif-display text-xl text-foreground">
             Anchor <span className="text-muted-foreground">Digital</span>
           </span>
