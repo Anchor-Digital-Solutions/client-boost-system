@@ -11,7 +11,7 @@ export function CTASection() {
         <h2 className="mt-4 font-serif-display text-4xl leading-tight md:text-6xl">Ready to improve your digital presence?</h2>
         <p className="mx-auto mt-5 max-w-xl text-background/70">Tell us what you're trying to build, improve or automate.</p>
         <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-          <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+          <Button asChild size="lg">
             <Link to="/contact">Book a Free Consultation <ArrowUpRight /></Link>
           </Button>
           <Button asChild size="lg" variant="outline" className="border-background/30 bg-transparent text-background hover:bg-background hover:text-foreground">

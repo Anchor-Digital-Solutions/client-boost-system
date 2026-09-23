@@ -4,11 +4,11 @@ interface Props {
   description?: string;
 }
 export const PageHero = ({ eyebrow, title, description }: Props) => (
-  <section className="border-b border-border" style={{ background: "var(--gradient-hero)" }}>
-    <div className="container mx-auto pt-16 md:pt-24 pb-14 md:pb-20 text-center max-w-3xl">
-      <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">{eyebrow}</p>
-      <h1 className="mt-4 font-serif-display text-5xl md:text-6xl leading-[1.05]">{title}</h1>
-      {description && <p className="mt-5 text-lg text-muted-foreground">{description}</p>}
+  <section className="border-b border-border bg-secondary/40">
+    <div className="section-shell py-16 text-center md:py-24">
+      <p className="eyebrow">{eyebrow}</p>
+      <h1 className="mx-auto mt-4 max-w-4xl font-serif-display text-5xl leading-[1.04] md:text-7xl">{title}</h1>
+      {description && <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-muted-foreground">{description}</p>}
     </div>
   </section>
 );
