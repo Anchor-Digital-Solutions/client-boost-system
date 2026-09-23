@@ -17,7 +17,7 @@ export function ServiceCard({ service, index }: { service: Service; index: numbe
       <ul className="mt-6 space-y-2 text-sm">
         {service.items.map((item) => <li key={item} className="flex gap-2"><Check className="mt-0.5 size-4 shrink-0 text-primary" />{item}</li>)}
       </ul>
-      <Link to={`/services#${service.slug}`} className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">
+      <Link to={service.path} className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">
         {service.cta} <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
       </Link>
     </article>
